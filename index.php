@@ -1,7 +1,7 @@
 <?php
 $orderBy = $_GET['sort'] ?? 'id';
 $orderDir = $_GET['order'] ?? 'asc';
-?>
+?> 
 <!DOCTYPE html>
 <html lang="en">
 
