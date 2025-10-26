@@ -36,6 +36,10 @@ $stmt->close();
     <title>Edit Film</title>
 
     <style>
+        .nav-link:hover {
+            transform: scale(1.05);
+            transition: transform ease 0.3s;
+        }
         .btn:hover{
             transform: scale(1.05);
             transition: transform ease 0.3s;

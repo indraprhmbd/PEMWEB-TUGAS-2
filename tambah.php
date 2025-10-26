@@ -11,6 +11,10 @@
             transform: scale(1.05);
             transition: transform ease 0.3s;
         }
+        .nav-link:hover {
+            transform: scale(1.05);
+            transition: transform ease 0.3s;
+        }
     </style>
 </head>
 

@@ -1,21 +1,7 @@
 <?php
-// $orderBy = $_GET['sort'] ?? 'id';
-// $orderDir = $_GET['order'] ?? 'asc';
-// $query = "SELECT * FROM film ORDER BY $orderBy $orderDir";
-
-include 'connection.php';
-
-// Validasi kolom yang bisa disort
-$allowedColumns = ['id', 'judul', 'genre', 'tahun', 'sutradara'];
-
-// Ambil parameter sort dan order
-$orderBy = isset($_GET['sort']) && in_array($_GET['sort'], $allowedColumns) ? $_GET['sort'] : 'id';
-$orderDir = isset($_GET['order']) && $_GET['order'] === 'desc' ? 'desc' : 'asc';
-
-// Query dengan ORDER BY dinamis
-$query = mysqli_query($connection, "SELECT * FROM film ORDER BY $orderBy $orderDir");
+$orderBy = $_GET['sort'] ?? 'id';
+$orderDir = $_GET['order'] ?? 'asc';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,6 +33,11 @@ $query = mysqli_query($connection, "SELECT * FROM film ORDER BY $orderBy $orderD
             transform: scale(1.05);
             transition: transform ease 0.3s;
         }
+        .nav-link:hover {
+            transform: scale(1.05);
+            transition: transform ease 0.3s;
+        }
+        
 
         @media (max-width:768px) {
             #main-image {
