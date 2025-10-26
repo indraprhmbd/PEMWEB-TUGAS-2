@@ -74,7 +74,7 @@ project/
 ---
 
 ## 👨‍💻 Pengembang
-**Nama:** Arsyadi Indra Hasan P.  
+**Nama:** Arsyadi Indra Hasan P
 **Peran:** Praktikan
 **Mata Kuliah:** Praktikum Pemrograman Web IF-D  
 
