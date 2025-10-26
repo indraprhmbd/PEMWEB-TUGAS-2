@@ -74,9 +74,9 @@ project/
 ---
 
 ## 👨‍💻 Pengembang
-**Nama:** Indra Prihambada  
-**Peran:** Junior Web Developer (Mahasiswa)  
-**Mata Kuliah:** Pemrograman Web  
+**Nama:** Arsyadi Indra Hasan P.  
+**Peran:** Praktikan
+**Mata Kuliah:** Praktikum Pemrograman Web IF-D  
 
 ---
 
