@@ -25,33 +25,6 @@ Aplikasi menggunakan:
 
 ---
 
-## 🗄️ Setup Database
-
-1. Buka **phpMyAdmin**
-2. Buat database baru bernama:
-   ```sql
-   CREATE DATABASE db_film;
-   ```
-3. Buat tabel:
-   ```sql
-   CREATE TABLE film (
-     id INT AUTO_INCREMENT PRIMARY KEY,
-     judul VARCHAR(100),
-     genre VARCHAR(50),
-     sutradara VARCHAR(100),
-     tahun INT
-   );
-   ```
-4. (Opsional) Tambahkan data dummy:
-   ```sql
-   INSERT INTO film (judul, genre, sutradara, tahun) VALUES
-   ('The Last Horizon', 'Action', 'Michael Reeves', 2020),
-   ('Love in Autumn', 'Romance', 'Sofia Laurent', 2018),
-   ('Midnight Terror', 'Horror', 'James Hollow', 2019);
-   ```
-
----
-
 ## 🧩 Struktur Folder
 ```
 project/
@@ -63,15 +36,8 @@ project/
 ├── edit.php             # Form edit data film (Update form)
 ├── update.php           # Proses update data film (Update action)
 ├── delete.php           # Hapus data film (Delete action)
-│
-└── assets/
-    ├── css/
-    │   └── bootstrap.min.css
-    └── js/
-        └── bootstrap.bundle.min.js
-```
 
----
+```
 
 ## 🚀 Cara Menjalankan Aplikasi
 1. Pindahkan folder project ini ke:
@@ -111,7 +77,6 @@ project/
 **Nama:** Indra Prihambada  
 **Peran:** Junior Web Developer (Mahasiswa)  
 **Mata Kuliah:** Pemrograman Web  
-**Dosen Pengampu:** (isi nama dosenmu di sini)
 
 ---
 
